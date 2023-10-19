@@ -27,12 +27,14 @@ APIS = {
 
 BASEURL = 'http://10.5.0.1:8000'
 
+# comentario para subir desde rebase - origin 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'HOST': 'db',
+        'NAME': 'decidedb',
+        'USER': 'decideuser',
+        'HOST': 'decidepass123',
         'PORT': '5432',
     }
 }
