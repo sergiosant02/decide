@@ -3,14 +3,14 @@
   become: true
   become_user: postgres
   postgresql_db:
-    name: decide
+    name: decidedb
 
 - name: Database user
   become: true
   become_user: postgres
   postgresql_user:
-    db: decide
-    name: decide
-    password: decide
+    db: decidedb
+    name: decideuser
+    password: decidepass123
     priv: ALL
 
